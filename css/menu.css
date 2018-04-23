@@ -3,3 +3,138 @@
   padding: 0;
   border: 0;
 }
+@font-face {
+    font-family: CormorantGaramond-Light ;
+    src: url(fonts/CormorantGaramond-Light.ttf);
+    font-family: CormorantGaramond-Regular ;
+    src: url(fonts/CormorantGaramond-Regular.ttf);
+    font-family: 'Parisienne', cursive;
+}
+nav li{
+   font-family: CormorantGaramond-Regular;
+    display: inline;
+}
+
+header{
+   margin: auto;
+   padding-bottom: 30px;
+    width: 75%;
+     
+}
+header img{
+    margin: auto;
+     
+}
+nav{
+    display: inline; 
+    padding-top: 50px;
+   
+}
+#navigation a{
+   color: black; 
+   text-decoration: none;
+   font-size: 2rem;
+   font-family: CormorantGaramond-Regular;  
+   margin-left: 30px; 
+   padding-left: 40px;
+   padding-right: 40px;
+   
+}
+#navigation a:hover{
+    background-color: #84a175;
+    color: #fff;
+    padding: 10px;
+    
+}
+#beverages{
+    padding-top: 20px;
+    width: 25%;
+    margin: auto;
+    list-style-type: none;
+    
+}
+h1{
+  font-family: 'Parisienne', cursive;
+    text-align: center;
+}
+h3 {
+   font-family: 'Parisienne', cursive;
+    font-size: 1.1rem;
+}
+h2{
+  font-family: 'Parisienne', cursive; 
+    padding-top: 20px;
+}
+#beverages img{
+    padding:15px;
+}
+#beverages li {
+   font-family: CormorantGaramond-Regular; 
+    list-style-type: none;
+}
+
+#snacks{
+    padding-top: 20px;
+    width: 25%;
+    margin: auto;
+    list-style-type: none;
+    
+}
+
+#snacks img{
+    padding:15px;
+}
+#snacks li {
+   font-family: CormorantGaramond-Regular; 
+    list-style-type: none;
+}
+
+@media (min-width:600px){
+    #beverages{
+        display: inline-flex;
+    }
+    #beverages ul{
+        display: block;
+        
+    }
+    #beverages div{
+        display: inline;
+        clear: both;
+        margin-top: 60px;  
+    }
+    #beverages h2{
+        padding-bottom: 40px;
+        margin-left: 20px;
+    }
+    
+    #snacks div {
+        display: inline;
+        clear: both;
+        margin-top: 60px;
+        padding-bottom: 30px;
+    
+    }
+    #snacks {
+        display:inline-flex;
+        width: 80%; 
+        
+    }
+    #snacks ul{
+        display: block;
+    }
+    #snacks h2{
+        margin-left: 20px;
+    }
+    #snacks #strudel {
+       display: block;
+       margin-top: 410px;
+       margin-left: -390px;
+    }
+}
+
+@media (min-width: 1175px){
+    header{
+        width: 100%;
+        
+    }
+}
