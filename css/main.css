@@ -88,6 +88,11 @@ main{
     margin-top: 50px;
     
 }
+h4{
+    font-family: CormorantGaramond-Regular;
+   text-align: center;
+    padding-top: 20%;
+}
 section{
     margin-top: 50px;
 }

@@ -89,6 +89,16 @@ h2{
     list-style-type: none;
 }
 
+button{
+    color: #fff;
+    background-color: #84a175;
+    padding: 20px;
+    float: right;
+    margin-right: 30px;
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+}
+
 @media (min-width:600px){
     #beverages{
         display: inline-flex;
@@ -105,6 +115,7 @@ h2{
     #beverages h2{
         padding-bottom: 40px;
         margin-left: 20px;
+        font
     }
     
     #snacks div {

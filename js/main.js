@@ -258,3 +258,10 @@ function escapeSelector (str) {
 
 })(jQuery);
 
+$('button.scrollToTop').on('click', function() {
+  $.smoothScroll({
+    scrollElement: $('anchor'),
+    scrollTarget: '#findme'  
+  });
+  return false;
+});

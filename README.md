@@ -3,7 +3,7 @@ Kelly Peretz
 4/25/18
 
 ## Links
-GitHub: 
+GitHub: https://github.com/kperetz/project_final3_peretz_kelly 
 Web Host: 
 W3C validator: 
 HTML5 Outliner: 
