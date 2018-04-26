@@ -91,14 +91,15 @@ h2{
 
 button{
     color: #fff;
-    background-color: #84a175;
     padding: 20px;
     float: right;
     margin-right: 30px;
     font-family: 'Parisienne', cursive;
     text-align: center;
-}
+    margin-bottom: 30px;
+    background-image: url("../img/beanz.jpeg");
 
+}
 @media (min-width:600px){
     #beverages{
         display: inline-flex;
